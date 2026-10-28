@@ -12,7 +12,7 @@ Fork of [Free My TV](https://github.com/simbasjungles/free-my-tv) (MIT). Applica
 2. On a computer with [platform-tools](https://developer.android.com/tools/releases/platform-tools):
 
 ```bash
-git clone https://github.com/OWNER/pronet-tv.git
+git clone https://github.com/JZD311/pronet-tv.git
 cd pronet-tv
 adb connect TV_IP:5555
 adb install -r dist/PronetTV.apk
@@ -20,11 +20,11 @@ adb shell cmd package set-home-activity ru.pronet.tv/ru.pronet.tv.HomeActivity
 adb shell am start -n ru.pronet.tv/.HomeActivity
 ```
 
-Replace `OWNER` with the GitHub user after the repo is created, and `TV_IP` with the box address.
+Replace `TV_IP` with the box address.
 
 Or tell any coding agent:
 
-> Install github.com/OWNER/pronet-tv on my TV at 192.168.x.x. Follow AGENTS.md.
+> Install github.com/JZD311/pronet-tv on my TV at 192.168.x.x. Follow AGENTS.md.
 
 ## Build
 
